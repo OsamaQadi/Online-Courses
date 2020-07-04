@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <mata charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+    </head>
+
+        <body>
+
+            <nav style="background: #0a5096 !important;" class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNjwep8pMElTAqA84sg8RMwahtbrjyefyEPFi1bDW3qG_xr3GQ&usqp=CAU" width="30" height="30" class="d-inline-block align-top" alt="">
+                    Online Courses </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div style="justify-content: flex-end;"class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="contact.html">تواصل معنا</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          كورسات
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="https://www.youtube.com/watch?v=pQN-pnXPaVg&t=1s">Html</a>
+                          <a class="dropdown-item" href="https://www.youtube.com/watch?v=ieTHC78giGQ">CSS</a>
+                          <a class="dropdown-item" href="https://www.youtube.com/watch?v=PkZNo7MFNFg">JAVASCRIPT</a>
+                        </div> 
+                      </li>
+                    <a class="nav-item nav-link active" href="home.html">الصفحة الرئيسية <span class="sr-only">(current)</span></a>
+                   
+                  </div>
+                </div>
+              </nav>
+
+<!-- Default form login -->
+<form style = "max-width: 550px; margin: 20px auto;" class="text-center border border-light p-5" action="#!">
+
+    <p class="h4 mb-4">تسجيل الدخول</p>
+
+    <!-- Email -->
+    <input type="email" id="defaultLoginFormEmail" dir="rtl" class="form-control mb-4" placeholder="الايميل">
+
+    <!-- Password -->
+    <input type="password" id="defaultLoginFormPassword" dir="rtl" class="form-control mb-4" placeholder="الرمز">
+
+    <div class="d-flex justify-content-around">
+        <div>
+            <!-- Remember me -->
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                <label class="custom-control-label" for="defaultLoginFormRemember">تذكرني</label>
+            </div>
+        </div>
+        <div>
+            <!-- Forgot password -->
+            <a href="">نسيت الرمز؟</a>
+        </div>
+    </div>
+
+    <!-- Sign in button -->
+    <button  style="background-color: salmon !important;" class="btn btn-info btn-block my-4" type="submit">تسجيل الدخول</button>
+
+    <!-- Register -->
+    <p>لست عضو؟
+        <a href="register.html">إنشاء حساب</a>
+    </p>
+
+    <!-- Social login -->
+    <p>:او سجل دخولك مع</p>
+
+    <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f light-blue-text"></i></a>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-twitter light-blue-text"></i></a>
+
+</form>
+<!-- Default form login -->
+
+<!-- Footer -->
+<footer  style="background: rgb(49, 49, 209) !important;" class="page-footer font-small mdb-color darken-3 pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+  
+        <!--Grid column-->
+        <div class="col-md-6">
+  
+          <!-- Video -->
+          <div class="embed-responsive embed-responsive-16by9 mb-4">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pQN-pnXPaVg"
+              allowfullscreen></iframe>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+      </div>
+  
+      <article id="icon">
+        <div class="col-md-12 py-3">
+          <div class="mb-5 flex-center">
+  
+              <!-- Whatsapp -->
+              <a href="" class="ws-ic">
+                <i class="fab fa-whatsapp fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/king.sooma" class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a href="" class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a href="" class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+      </article>
+      <!--Grid row-->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://www.udemy.com/topic/logo-design/free/"> udemy.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  
+  
+  </footer>
+  <!-- Footer -->
+
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
+        </body>
+    
+</html>
